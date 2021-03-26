@@ -16,6 +16,7 @@ const me = {
   shoeCount: 12,
   favThreeFoods: ['mac & cheese', 'thai red curry' , 'tahini']
 };
+//created object literal for me object with 5 different properties with values to those properties
 console.log('A little about me:', me);
 
 /* 2. Accessing object properties.
@@ -26,7 +27,7 @@ console.log('A little about me:', me);
 */
 let fullName = (me.firstName + ' ' + me.lastName);
 console.log('full name:' , fullName);
-
+//created variable full name by accessing first and last name properties of me object. accessed through dot operation
 
 /* 3. Nested arrays
   - Console.log your first favorite food
@@ -34,7 +35,7 @@ console.log('full name:' , fullName);
 */
 console.log('first favorite food:' , me.favThreeFoods[0]);
 console.log('last favorite food:' , me.favThreeFoods[2]);
-
+//added logs of first and last favorite food to console - seperately by accessing the nested arrays through dot operation for property of me object.
 
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
@@ -45,6 +46,7 @@ console.log('last favorite food:' , me.favThreeFoods[2]);
 console.log('shoe count:' , me.shoeCount);
 me.shoeCount += 1;
 console.log('added pair, now shoe count:' , me.shoeCount);
+//logged shoe count to console. added a pair then logged new shoe count to console.
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
@@ -52,3 +54,5 @@ console.log('added pair, now shoe count:' , me.shoeCount);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me.favoriteColor = 'blue';
+console.log(me);
