@@ -56,3 +56,5 @@ console.log('added pair, now shoe count:' , me.shoeCount);
 */
 me.favoriteColor = 'blue';
 console.log(me);
+//added new property to me object - favorite color - with value blue.
+//logged me object to console.
